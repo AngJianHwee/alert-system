@@ -14,7 +14,7 @@ RUN npm run build
 # Stage 3: Run the Next.js application
 FROM node:20-alpine AS runner
 WORKDIR /app
-ENV NODE_ENV production
+ENV NODE_ENV=production
 # You can uncomment and modify the following line if you need to run on a different port
 # ENV PORT 3000
 
