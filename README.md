@@ -1,5 +1,7 @@
 # Alert System with Zustand
 
+![Alert System Example](assets/example.gif)
+
 This repository demonstrates the implementation of an alert system with global state management using [Zustand](https://github.com/pmndrs/zustand). The project is styled with [TailwindCSS](https://tailwindcss.com/), [ShadCN](https://shadcn.dev/), and [tailwind-animate](https://github.com/benface/tailwind-animate).
 
 ## Features
@@ -30,10 +32,6 @@ This repository demonstrates the implementation of an alert system with global s
 4. Open your browser and navigate to `http://localhost:3000`.
 
 ## Usage
-
-Here's a quick demonstration of the alert system in action:
-
-![Alert System Example](assets/example.gif)
 
 A simple usage example is included in the main application page. `src/pages/index.tsx` with a form to add alerts and a JSON display of the current alerts.
 
