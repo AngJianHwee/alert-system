@@ -13,7 +13,7 @@ This repository demonstrates the implementation of an alert system with global s
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/alert-system.git
+   git clone https://github.com/angjianhwee/alert-system.git
    cd alert-system
    ```
 
@@ -30,6 +30,10 @@ This repository demonstrates the implementation of an alert system with global s
 4. Open your browser and navigate to `http://localhost:3000`.
 
 ## Usage
+
+Here's a quick demonstration of the alert system in action:
+
+![Alert System Example](assets/example.gif)
 
 A simple usage example is included in the main application page. `src/pages/index.tsx` with a form to add alerts and a JSON display of the current alerts.
 
@@ -97,3 +101,19 @@ Alert-System/
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+## Dockerization
+
+To run this application using Docker, follow these steps:
+
+1.  **Build the Docker image**:
+    ```bash
+    docker build -t alert-system .
+    ```
+
+2.  **Run the Docker container**:
+    ```bash
+    docker run -p 3000:3000 alert-system
+    ```
+
+    The application will be accessible at `http://localhost:3000` in your browser.
